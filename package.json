@@ -1,0 +1,16 @@
+{
+  "name": "dapp-template",
+  "version": "1.0.0",
+  "description": "react hardhat puppeteer",
+  "scripts": {
+    "test:e2e": "npm run node -w contract & npm run dev -w app & npm run test -w e2e"
+  },
+  "keywords": [],
+  "author": "3794 <3794hyo@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/app",
+    "packages/contract",
+    "packages/e2e"
+  ]
+}
