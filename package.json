@@ -1,11 +1,11 @@
 {
   "name": "dapp-template",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "react hardhat puppeteer",
   "scripts": {
     "test:e2e": "npm run node -w contract & npm run dev -w app & npm run test -w e2e"
   },
-  "keywords": [],
+  "keywords": ["react", "hardhat", "puppeteer", "metamask", "e2e"],
   "author": "3794 <3794hyo@gmail.com>",
   "license": "MIT",
   "workspaces": [
